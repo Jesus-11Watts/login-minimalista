@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --tipografia:'Poppins', sans-serif;
+    --tipografia:'Poppins', 'sans-serif';
 }
 
 *{
@@ -11,7 +11,8 @@
 }
 
 body{
-    background-image: url(../../images/background-cover.svg);
+    /* en background-image pueden colocar la imagen que quieran*/
+    background-image: url(https://www.metroworldnews.com/resizer/hc9zzSev40CeHmLiof1K4tWBidk=/arc-photo-metroworldnews/arc2-prod/public/E5X6345OMNFVDBM3ZWUFWZYIIU.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
